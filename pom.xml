@@ -9,8 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>studio.thinkground</groupId>
-    <artifactId>testproject</artifactId>
+    <artifactId>StartSpringboot</artifactId>
     <version>1.0.0</version>
+    <packaging>jar</packaging>
+
     <name>TestProject</name>
     <description>TestProject</description>
     <properties>
@@ -28,11 +30,13 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
